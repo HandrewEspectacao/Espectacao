@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    font-family: 'Alkatra', cursive;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} o "*" é um css universal */
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#img {
+    border-radius: 50%;
+}
+table,
+th,
+td {
+    border: 1px inset rgb(32, 21, 30);
+    /*  border-collapse: collapse; */
+    border-radius: 10px;
+    /*  border-spacing: 34px; */
+}
+
+th {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 30px;
+}
+
+td:hover {
+    background-color: darkgray;
+    text-align: center;
+}
+
+tr {
+    background-color: rgb(32, 114, 102);
+}
+
+ul {
+    list-style-type: "\203A";
+}
+.azul {
+    color: blue;
+}
+
+.pequeno {
+    font-size: small;
+}
+
+#sublinhado {
+    text-decoration: underline;
+}
+#ft {
+    background-image:url("img/ney.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#d1{
+    background-color: rgb(196, 233, 30);
+    height: 200px;
+    /* display: none; */
+    visibility: hidden;
+}
+#d2{
+    background-color: red;
+    height: 200px;
+    
+}
+#nonemargin{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#teste-over{
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid blue;
+    overflow: auto;
+    resize: both;
+}
+#teste-position{
+    width: 50%;
+    height: 200px;
+    background-color: darkgreen;
+    position:relative;
+   /*  top: 30px; */ /* or bottom */
+    left: 25%; /* or right */
+}
+#tp2{
+    width: 10% ;
+    height: 10%;
+    background-color: rgb(20, 47, 184);
+    position: absolute;
+    top:0; 
+    /* bottom: 20px; */
+    left:0; /* or right */
+}
+#tp3{
+    width: 10% ;
+    height: 10%;
+    background-color: rgb(20, 47, 184);
+    position: absolute;
+    top:0;    
+    right:0; 
+}
+#tp4{
+    width: 10% ;
+    height: 10%;
+    background-color: rgb(20, 47, 184);
+    position: absolute;
+    bottom:0;    
+    left:0; 
+}
+#tp5{
+    width:  10%;
+    height: 10%;;
+    background-color: rgb(20, 47, 184);
+    position: absolute;
+    bottom:0;    
+    right:0; 
+}
+#tp6{
+    width: 10%;
+    height: 10%;
+    margin-left:  auto;
+    margin-right: auto;
+    background-color: yellow;
+    position: absolute;
+    top:45%;
+    left: 45%;
+    box-sizing: border-box;
+}
+#float{
+    width: 20%;
+    float: right;
+}
+#a{
+    clear: both;
+}
+#op{
+    width: 30%;
+}
+#opaca{
+    width: 100%;
+    opacity: 0.3;
+}
+#opaca:hover{
+    opacity: 1;
+}
+.menor{
+    width: 5rem;
+    height: 5rem;
+    background-color: brown;
+    margin: 1rem;
+}
+.alto{
+    height: 10rem;
+}
+#maior{
+    background-color: goldenrod;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    align-content: center;
+}
